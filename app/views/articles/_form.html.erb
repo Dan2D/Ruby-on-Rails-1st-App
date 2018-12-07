@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 <%= form_for(@article) do |f| %>
   <ul>
   <% @article.errors.full_messages.each do |error| %>
     <li><%= error %></li>
   <% end %>
+=======
+<%=form_for(@article) do |f| %>
+  <ul>
+    <% @article.errors.full_messages.each do |error| %>
+	<li><%= error %></li>
+    <% end %>
+>>>>>>> 549219116c00636e22f7bef769c643ef6aaf6364
   </ul>
   <p>
     <%= f.label :title %><br />
@@ -16,3 +24,9 @@
     <%= f.submit %>
   </p>
 <% end %>
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 549219116c00636e22f7bef769c643ef6aaf6364
