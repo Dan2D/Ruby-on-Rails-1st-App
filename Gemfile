@@ -27,6 +27,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+#Paperclip attach library handler
+gem "paperclip"
+
+#Testing to see if I need Imagemagick included in here...did not work
+#gem "imagemagick"
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
