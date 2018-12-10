@@ -33,6 +33,10 @@ gem "paperclip"
 #Testing to see if I need Imagemagick included in here...did not work
 #gem "imagemagick"
 
+
+#simple authentication gem
+gem 'sorcery'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
